@@ -1,45 +1,20 @@
-# excel-vba-process-automation
-Automates Excel workflows to save time, reduce errors, and turn messy data into actionable business insights—without writing complex code.
+Excel VBA Process Automation Suite
 
-Excel Workflow Automation Project
+A high-performance automation engine designed to eliminate manual data entry, ensure inventory integrity, and scale document generation. This project demonstrates modular programming, defensive coding, and dynamic data handling.
 
-Stop wasting hours on repetitive Excel tasks. This project automates core business processes, reduces errors, and delivers actionable insights—all using Excel and VBA.
+Key Features
 
-What It Does
+* Dynamic Inventory Management: Real-time stock tracking with automated reorder alerts using search algorithms that adapt to column shifts.
+* Intelligent Data Sanitization: Multi-step cleaning pipeline that handles whitespace, duplicates, and inconsistencies via optimized VBA arrays.
+* Batch Invoice Generation: Modular engine that groups transaction data into professional PDF invoices with automated file naming and directory management.
 
-Clean & Prepare Data – Automatically handles duplicates, missing values, and inconsistencies
+Technical Implementation
 
-Generate Reports – Pivot Tables and dashboards that update dynamically
-
-Automate Invoices – Calculations, formatting, and PDF exports with one click
-
-Track Inventory – Monitor stock levels and flag low inventory instantly
-
-Visualize Trends – Charts and dashboards for fast, informed decisions
-
-Tools & Skills Demonstrated
-Microsoft Excel (Advanced)
-VBA Macros & Automation
-Data Cleaning & Transformation
-Pivot Tables & Interactive Dashboards
-Business Analytics & Reporting
+* Defensive Programming: Implementation of robust Error Handling (`On Error GoTo`) to ensure system stability.
+* Modular Architecture: Separation of concerns using dedicated subroutines for data, logic, and UI.
+* Dynamic Range Detection: Use of `CurrentRegion` and `.Find` methods to ensure the code remains "bulletproof" even if the dataset structure changes.
 
 Project Structure
-
-/screenshots   → Dashboards, invoices, and inventory visuals
-/docs          → Detailed explanations and workflow logic
-/sample-data   → Dummy datasets for demonstration
-README.md      → Project documentation
-
-Key Learnings
-
-Automation saves hours of repetitive work and improves accuracy
-
-Translating business needs into structured logic is critical for scalable solutions
-
-Clear documentation ensures usability and long-term maintenance
-
-About Me
-
-Engineering student with a focus on data analytics, systems thinking, and building practical automation solutions that deliver measurable impact.
-
+/src          : Source code (.bas files) for technical review
+/screenshots  : Visual proof of dashboards and generated outputs
+/sample-data  : Normalized datasets used for stress-testing
