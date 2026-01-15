@@ -39,8 +39,6 @@ Translating business needs into structured logic is critical for scalable soluti
 
 Clear documentation ensures usability and long-term maintenance
 
-Macro-enabled files are not uploaded for security but are available on request
-
 About Me
 
 Engineering student with a focus on data analytics, systems thinking, and building practical automation solutions that deliver measurable impact.
