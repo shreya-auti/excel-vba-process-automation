@@ -21,6 +21,9 @@ Technical Implementation
 
 Sample Data: Dummy sales data used for demonstrating invoice generation and reporting.
 [sample-data-sales.xlsx](sample-data/sample-data-sales.xlsx)
+> Note: The included sample dataset is a representative dummy dataset created for demonstration purposes.  
+> Screenshot visuals were generated from an earlier dataset with similar structure and cleaning logic.
+
 
 Documentation: Detailed explanation of the project workflow, automation logic, and design decisions
 [Project_Overview_Excel_VBA_Automation](docs/Project_Overview_Excel_VBA_Automation.docx)
