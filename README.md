@@ -19,10 +19,18 @@ Technical Implementation
 * Modular Architecture: Separation of concerns using dedicated subroutines for data, logic, and UI.
 * Dynamic Range Detection: Use of `CurrentRegion` and `.Find` methods to ensure the code remains "bulletproof" even if the dataset structure changes.
 
+Sample Data: Dummy sales data used for demonstrating invoice generation and reporting.
+[sample-data-sales.xlsx](sample-data/sample-data-sales.xlsx)
+
+Documentation: Detailed explanation of the project workflow, automation logic, and design decisions
+[Project_Overview_Excel_VBA_Automation](docs/Project_Overview_Excel_VBA_Automation.docx)
+
 Project Structure
 /src          : Source code (.bas files) for technical review
 /screenshots  : Visual proof of dashboards and generated outputs
+/docs         : Project documentation (PDF)
 /sample-data  : Normalized datasets used for stress-testing
+README.md        → Project overview
 
 About the Developer
 
